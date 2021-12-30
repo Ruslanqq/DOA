@@ -1,0 +1,42 @@
+@import './header.css';
+@import './started.css';
+@import './footer.css';
+@import './network.css';
+@import './about.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+/* 
+    .header_container{
+        width: 100%;
+        min-height: 100%;
+    } */
+
+
+    body{
+        overflow-x :hidden;
+    }
+        
+
+       .increase  {
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        }
+        
+       .increase:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        }
